@@ -1,6 +1,8 @@
 import express from "express";
 import { MongoClient } from "mongodb";
 import { ObjectId } from "mongodb";
+import cors from "cors";
+
 
 const app = express();
 const PORT = 4000;
